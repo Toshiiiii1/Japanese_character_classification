@@ -14,7 +14,7 @@ st.set_page_config(
 def predict(input_image):
     labels = ["Hiragana", "Kanji", "Katakana"]
     # load mô hình phân loại
-    model = load_model("./M2.h5")
+    model = load_model("./models/M2.h5")
     
     # xử lý ảnh
     size = (100, 100)
